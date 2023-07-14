@@ -6,6 +6,8 @@ let hasBlackJack = false // starts the play sensing that you dont have blackjack
 let isAlive = true // bust variable, left false until bust is reached 
 let message = ""
 
+// 1. Store the message-el paragraph in a variable called messageEl
+
 function startGame() {
     if (sum <= 20) {
         message = "Do you want to draw a new card? 🙂"
@@ -16,5 +18,6 @@ function startGame() {
         message = "Bust! 😭"
         isAlive = false
     }
+    // 2. Display the message in the messageEl using messageEl.textContent
     console.log(message)
 }
