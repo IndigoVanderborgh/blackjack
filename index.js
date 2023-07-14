@@ -4,7 +4,7 @@ let secondCard = 7
 let sum = firstCard + secondCard
 let hasBlackJack = false // starts the play sensing that you dont have blackjack yet
 let isAlive = true // bust variable, left false until bust is reached 
-let message = ""
+let message = "" // message is already set
 
 // 1. Store the message-el paragraph in a variable called messageEl
 let messageEl = document.getElementById("message-el")
