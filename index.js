@@ -22,3 +22,5 @@ function startGame() {
     // 2. Display the message in the messageEl using messageEl.textContent
     messageEl.textContent = message
 }
+
+// Taking a break this weekend
