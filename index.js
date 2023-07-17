@@ -28,3 +28,4 @@ function startGame() {
 // Tring to learn JS is a dont forget though it r eally fun too!
 // Changes in the log
 // More changes will occur on july 18
+// make sure to delete me when that happens!
