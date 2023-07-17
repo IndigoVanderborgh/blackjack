@@ -23,4 +23,5 @@ function startGame() {
     messageEl.textContent = message
 }
 
-// Taking a break this weekend
+// Taking a break this weekend!
+// Also Ignore this text
