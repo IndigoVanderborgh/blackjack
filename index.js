@@ -27,3 +27,4 @@ function startGame() {
 // Also Ignore this text
 // Tring to learn JS is a dont forget though it r eally fun too!
 // Changes in the log
+// More changes will occur on july 18
