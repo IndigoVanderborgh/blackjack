@@ -25,3 +25,4 @@ function startGame() {
 
 // Taking a break this weekend!
 // Also Ignore this text
+// Tring to learn JS is a dont forget though it r eally fun too!
