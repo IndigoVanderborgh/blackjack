@@ -31,3 +31,4 @@ function startGame() {
 // make sure to delete me when that happens!
 // I lied, july 18th there was an incident. will review on 19th
 // rawr
+// july 18th I had an emergency sorry!
