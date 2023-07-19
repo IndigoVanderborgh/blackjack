@@ -29,3 +29,4 @@ function startGame() {
 // Changes in the log
 // More changes will occur on july 18
 // make sure to delete me when that happens!
+// I lied, july 18th there was an incident. will review on 19th
