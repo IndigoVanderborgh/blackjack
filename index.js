@@ -23,12 +23,5 @@ function startGame() {
     messageEl.textContent = message
 }
 
-// Taking a break this weekend!
-// Also Ignore this text
-// Tring to learn JS is a dont forget though it r eally fun too!
-// Changes in the log
-// More changes will occur on july 18
-// make sure to delete me when that happens!
-// I lied, july 18th there was an incident. will review on 19th
-// rawr
-// july 18th I had an emergency sorry!
+
+//AAAAAAAAAAAAAAAAAA
