@@ -5,11 +5,13 @@ let sum = firstCard + secondCard
 let hasBlackJack = false // starts the play sensing that you dont have blackjack yet
 let isAlive = true // bust variable, left false until bust is reached 
 let message = "" // message is already set
-
-// 1. Store the message-el paragraph in a variable called messageEl
 let messageEl = document.getElementById("message-el")
+// 2. Store the sum paragraph in a variable called sumEl
+
+
 
 function startGame() {
+    // 3. Render the sum on the page using this format -> "Sum: 14"
     if (sum <= 20) {
         message = "Do you want to draw a new card? 🙂"
     } else if (sum === 21) {
@@ -19,9 +21,5 @@ function startGame() {
         message = "Bust! 😭"
         isAlive = false
     }
-    // 2. Display the message in the messageEl using messageEl.textContent
     messageEl.textContent = message
 }
-
-
-//AAAAAAAAAAAAAAAAAA
