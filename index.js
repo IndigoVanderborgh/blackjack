@@ -11,11 +11,12 @@ let sumEl = document.getElementById("sum-el")
 // Hashtag uses id, class uses dot.
 // let sumEl = document.querySelector("#sum-el")
 // let sumEl = document.querySelector(".sum-el")
-
+let cardsEl = document.getElementById("cards-el")
 
 
 function startGame() {
-    sumElEl.textContent = "Sum: " + sum
+    cardsEl.textContent = "Cards: " + firstCard + " " + secondCard
+    sumEl.textContent = "Sum: " + sum
     if (sum <= 20) {
         message = "Do you want to draw a new card? 🙂"
     } else if (sum === 21) {
