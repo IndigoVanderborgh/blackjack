@@ -39,3 +39,4 @@ function newCard() {
     // 3. Call startGame()
     startGame()
 }
+// just my day off
