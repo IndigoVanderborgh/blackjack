@@ -23,7 +23,7 @@ function startGame() {
 function renderGame() {
     // this render outs firstCard and secondCard only!
     cardsEl.textContent = "Cards: " + firstCard + " " + secondCard
-    // we want to isntead render out ALL the cards we have, using an array.
+    // we want to instead render out ALL the cards we have, using an array.
     sumEl.textContent = "Sum: " + sum
     if (sum <= 20) {
         message = "Do you want to draw a new card? 🙂"
