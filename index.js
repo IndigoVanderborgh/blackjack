@@ -1,6 +1,7 @@
 
 let firstCard = 10
 let secondCard = 4
+let cards = [firstCard, secondCard] // array - ordered list of items
 let sum = firstCard + secondCard
 let hasBlackJack = false // starts the play sensing that you dont have blackjack yet
 let isAlive = true // bust variable, left false until bust is reached 
@@ -22,7 +23,7 @@ function startGame() {
 
 function renderGame() {
     // this render outs firstCard and secondCard only!
-    cardsEl.textContent = "Cards: " + firstCard + " " + secondCard
+    cardsEl.textContent = "Cards: " + cards[0] + " " + cards[1]
     // we want to instead render out ALL the cards we have, using an array.
     sumEl.textContent = "Sum: " + sum
     if (sum <= 20) {
