@@ -44,3 +44,4 @@ function newCard() {
     startGame()
 }
 
+// Starting to count in JS. ARRAYS MAN!
