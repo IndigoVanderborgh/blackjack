@@ -54,3 +54,5 @@ function newCard() {
 for (let i = 10; i < 101; i += 10) {
     console.log(i)
 }
+
+// learning about arrays/counting this is a placeholder text until= i can continue.
