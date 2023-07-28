@@ -58,3 +58,4 @@ for (let i = 10; i < 101; i += 10) {
 
 
 // learning about arrays/counting this is a placeholder text until i can continue.
+// mostly learning about for loops.
