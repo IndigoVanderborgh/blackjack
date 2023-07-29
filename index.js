@@ -70,3 +70,4 @@ for (let i = 10; i < 101; i += 10) {
 //     console.log(cards[i])
 // }
 // change of plans
+// gonna take a break this weekend
