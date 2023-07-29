@@ -69,3 +69,4 @@ for (let i = 10; i < 101; i += 10) {
 // for (let i = 0; i < cards.length; i++) {
 //     console.log(cards[i])
 // }
+// change of plans
