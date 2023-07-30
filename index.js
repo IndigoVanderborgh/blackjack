@@ -56,18 +56,3 @@ for (let i = 10; i < 101; i += 10) {
 }
 
 
-
-// Still learning about arrays; loops and for. placeholder text for now
-
-
-
-// learning about arrays/counting this is a placeholder text until i can continue.
-// mostly learning about for loops.
-
-// let cards = [7, 3, 9]
-
-// for (let i = 0; i < cards.length; i++) {
-//     console.log(cards[i])
-// }
-// change of plans
-// gonna take a break this weekend
