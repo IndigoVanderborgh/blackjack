@@ -1,4 +1,4 @@
-let firstCard = 10
+let firstCard = getRandomCard()
 let secondCard = 4
 let cards = [firstCard, secondCard] // array - ordered list of items
 let sum = firstCard + secondCard
@@ -41,7 +41,7 @@ function renderGame() {
 
 function newCard() {
     console.log("Drawing a new card from the deck!")
-    let card = 6
+    let card = getRandomCard()
     sum += card
     // push the card to the cards array
     cards.push(card)
