@@ -48,5 +48,3 @@ function newCard() {
     startGame()
 }
 
-
-
