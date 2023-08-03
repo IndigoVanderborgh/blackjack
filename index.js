@@ -15,10 +15,11 @@ let sumEl = document.getElementById("sum-el")
 let cardsEl = document.getElementById("cards-el")
 // -----------------------------------------------------
 
-// 1. Create a function, getRandomCard(), that always returns the number 5
+// 1. Create a function, getRandomCard(), that always returns the number 5 done
 
-function getRandomCard()
-    return 
+function getRandomCard() {
+    return 5
+}
 
 function startGame() {
     renderGame()
