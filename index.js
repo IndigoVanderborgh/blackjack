@@ -1,3 +1,4 @@
+// 2. Use getRandomCard() to set the values of firstCard and secondCard
 let firstCard = getRandomCard()
 let secondCard = 4
 let cards = [firstCard, secondCard] // array - ordered list of items
@@ -14,7 +15,10 @@ let sumEl = document.getElementById("sum-el")
 let cardsEl = document.getElementById("cards-el")
 // -----------------------------------------------------
 
+// 1. Create a function, getRandomCard(), that always returns the number 5
 
+function getRandomCard()
+    return 
 
 function startGame() {
     renderGame()
@@ -40,6 +44,7 @@ function renderGame() {
 }
 
 function newCard() {
+    // 3. Use the getRandomCard() to set the value of card
     console.log("Drawing a new card from the deck!")
     let card = getRandomCard()
     sum += card
