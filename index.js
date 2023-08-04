@@ -14,7 +14,7 @@ let sumEl = document.getElementById("sum-el")
 let cardsEl = document.getElementById("cards-el")
 // -----------------------------------------------------
 
-
+// Make this function return a random number between 1 and 13
 function getRandomCard() {
     return 5
 }
