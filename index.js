@@ -16,7 +16,7 @@ let cardsEl = document.getElementById("cards-el")
 
 // Make this function return a random number between 1 and 13
 function getRandomCard() {
-    return 5
+    return Math.floor(Math.random() * 13) + 1
 }
 
 function startGame() {
@@ -46,7 +46,7 @@ function newCard() {
     console.log("Drawing a new card from the deck!")
     let card = getRandomCard()
     sum += card
-    // push the card to the cards array
+    // push the new card to the cards array
     cards.push(card)
     startGame()
 }
