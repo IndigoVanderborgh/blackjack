@@ -58,11 +58,13 @@ function renderGame() {
 
 // broken now, can continuesly draw cards past bust. going to use the logical operator AND
 function newCard() {
-    console.log("Drawing a new card from the deck!")
-    let card = getRandomCard()
-    sum += card
-    // push the new card to the cards array
-    cards.push(card)
-    startGame()
+    // Only allow the player to get a new card if she IS alive and does NOT have Blackjack
+    if (isAlive === true && hasBlackJack === false) {
+        let card = getRandomCard()
+        sum += card
+        // push the new card to the card array
+        cards.push(card)
+        renderGame()
+    }
 }
 
