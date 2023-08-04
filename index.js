@@ -56,6 +56,7 @@ function renderGame() {
     messageEl.textContent = message
 }
 
+// broken now, can continuesly draw cards past bust. going to use the logical operator AND
 function newCard() {
     console.log("Drawing a new card from the deck!")
     let card = getRandomCard()
