@@ -26,7 +26,7 @@ function getRandomCard() {
     }
 }
 
-function startGame() {
+function startGame() { // merged with variables on line 31, 32 and 33 from variables before
     isAlive = true
     let firstCard = getRandomCard()
     let secondCard = getRandomCard()
