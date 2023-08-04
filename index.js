@@ -1,9 +1,7 @@
-let firstCard = getRandomCard()
-let secondCard = getRandomCard()
-let cards = [firstCard, secondCard] // array - ordered list of items
-let sum = firstCard + secondCard
+let cards = [] // array - ordered list of items
+let sum = 0
 let hasBlackJack = false // starts the play sensing that you dont have blackjack yet
-let isAlive = true // bust variable, left false until bust is reached 
+let isAlive = false // varibale denoting whether we "entered" the casino ie start game 
 let message = "" // message is already set
 let messageEl = document.getElementById("message-el")
 let sumEl = document.getElementById("sum-el")
