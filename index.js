@@ -7,6 +7,17 @@ let messageEl = document.getElementById("message-el")
 let sumEl = document.getElementById("sum-el")
 let cardsEl = document.getElementById("cards-el")
 
+
+// introduction to objects
+let player = {
+    name: "User",
+    cash: 145
+}
+
+let playerEl = document.getElementById("player-el")
+playerEl.textContent = player.name + ": $" + player.cash
+
+
 function startGame() {
     isAlive = true
     let firstCard = getRandomCard()
