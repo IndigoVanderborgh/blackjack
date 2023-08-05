@@ -18,13 +18,6 @@ let playerEl = document.getElementById("player-el")
 // 4. Render the player's name and chips in playerEl
 playerEl.textContent = player.name + ": $" + player.cash
 
-// introduction to objects
-// let player = {
-//     name: "User",
-//     cash: 145
-// }
-
-
 function startGame() {
     isAlive = true
     let firstCard = getRandomCard()
