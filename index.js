@@ -27,7 +27,6 @@ function renderGame() {
     } else if (sum === 21) {
         message = "Blackjack! 🥳"
         hasBlackJack = true
-        isAlive = true
     } else {
         message = "Bust! 😭"
         isAlive = false
@@ -54,3 +53,8 @@ function newCard() {
         renderGame()
     }
 }
+
+// problem is when 21 is hit, new card doesn't work.
+// potential fix: create new function called restartGame(), to set isAlive function to false
+// alongside other variables stated in the beginning.
+// tried fixing by putting isAlive = false under line 29, didn't work.
