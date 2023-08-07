@@ -69,3 +69,5 @@ function newCard() {
 // potential fix: create new function called restartGame(), to set isAlive function to false
 // alongside other variables stated in the beginning.
 // tried fixing by putting isAlive = false under line 29, didn't work.
+
+// finished!
