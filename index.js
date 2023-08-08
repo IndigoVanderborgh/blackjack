@@ -71,3 +71,4 @@ function newCard() {
 // tried fixing by putting isAlive = false under line 29, didn't work.
 
 // finished!
+// not finished
